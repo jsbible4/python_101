@@ -7,8 +7,8 @@
 
 a = int(input("숫자 하나를 입력하세요."))
 b = int(input("숫자 하나 더 입력하세요."))
-#print(type(a))
-#print(type(b))
+print(type(a))
+print(type(b))
 # a b 를 숫자로 인식한게 아니라 문자로 인식했기 때문이다.
 #add = int(a)+int(b)
 print(f"두 수의 합은 {a+b}입니다.")

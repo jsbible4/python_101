@@ -4,10 +4,10 @@
 # print(f"만나이는 {current_year-birth}")
 
 # 세 개의 숫자 평균 계산기
-# a = int(input("숫자 하나를 입력하시오."))
-# b = int(input("숫자 하나를 입력하시오."))
-# c = int(input("숫자 하나를 입력하시오."))
-# print(f"세 수의 평균은 {(a+b+c)/3}")
+a = float(input("숫자 하나를 입력하시오."))
+b = float(input("숫자 하나를 입력하시오."))
+c = float(input("숫자 하나를 입력하시오."))
+print(f"세 수의 평균은 {(a+b+c)/3}")
 
 # 환율 계산기
 # won = int(input("원을 입력하세요"))
