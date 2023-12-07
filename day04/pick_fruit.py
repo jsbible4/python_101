@@ -19,7 +19,7 @@ fruits.append(five_fruits)
 five_fruits = input("과일 입력해줘.")
 fruits.append(five_fruits)
 
-
-print(f"{random.choice(fruits)}가 참 맛있죠!")
+b = random.choice(fruits)
+print(f"{b}가 참 맛있죠!")
 
 
