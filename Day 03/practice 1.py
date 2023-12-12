@@ -17,15 +17,14 @@ print(b.index("오"))
 print(b[2])
 print(b.split())
 c = b.split()
-print(list(c))
 
 print(list(c)[1:])
 print(b.replace("MBK","lol"))
 print(b.isalpha())
-d = list(c)
-print(d.count('주당'))
-d.append("lol")  # 조작할 때는 다시 이렇게 빼줘야 함.
-print(d)
+
+print(c.count('주당'))
+c.append("lol")  # 조작할 때는 다시 이렇게 빼줘야 함.
+print(c)
 
 a ="megastudy".upper()  #변수선언할 때 미리 문자열을 어떻게 사용할 지 결정하는 방법이 있고
 print(a)

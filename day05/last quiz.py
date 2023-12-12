@@ -40,14 +40,24 @@ else:
 mother_language = int(input("국어 점수를 입력해주세요"))
 math = int(input("수학 점수를 입력해주세요"))
 english = int(input("영어 점수를 입력해주세요"))
-if mother_language or math or english == 100:
-    print('GOOD')
-    if 100>(mother_language + math + english)//3>=90:
-        print("A")
-    elif 90>(mother_language + math + english)//3>=80:
-        print("B")
-    else:
-        print("c")
+if 100>(mother_language + math + english)//3>=90:
+    print("A")
+elif 90>(mother_language + math + english)//3>=80:
+    print("B")
 else:
+    print("c")
+
+if mother_language or math or english == 100:
+    print("GOOD")
+else:
+    print("")
+
+if mother_language or math or english <= 60:
+    print("BAD")
+else:
+    print("")
+
+
+
 # 영화 티켓 예매 시스템
 

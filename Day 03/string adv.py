@@ -12,8 +12,9 @@ Yoon's approval followed a surprising turn of events, when Korea Communications 
 
 The main opposition Democratic Party of Korea introduced a unilateral motion to impeach Lee earlier this week based on its longstanding criticism of him "cracking down on outlets for hostile coverage against the government" and aiding the president’s "efforts to control the press."""
 
-articleLow = article.join(["start ", " end"]) #list 를 한 번 넣어줘야 한다.
-print(articleLow)
+#articleLow = article.join(["start ", " end"]) #list 를 한 번 넣어줘야 한다.
+#print(articleLow)
+print(article.join(["start", "end"]))
 
 #왜 List 를 한 번 넣어줘야 하나?
 #-->

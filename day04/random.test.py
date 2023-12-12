@@ -39,5 +39,5 @@ import random
 print(random.choice(b))
 
 print(random.uniform(0,10))
-random.shuffle(b)  #이거 할 때 변수 붙이지 않는 이유는???
+random.shuffle(b)  #이거 할 때 변수 붙이지 않는 이유는??? ==list 조작이기 때문에
 print(b)
