@@ -56,11 +56,11 @@ print(list)
 
 #2번째 방법
 #
-#max = list[0]
-#for i in list:
-#    if max<i:
-#        max = i    # max를 계속 갱신해주는 작업.
-#print(max)
+max = list[0]
+for i in list:
+    if max<i:
+        max = i    # max를 계속 갱신해주는 작업.
+print(max)
 
 fruit_dict = {
     1 : 'stawberry',

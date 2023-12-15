@@ -19,6 +19,3 @@ print(i)
 a = random.randint(1,5)
 numer = fruit_dict[a]
 
-for i in fruit_dict:
-if fruits.count(i) <
-print("이 리스트에서 가장 많이 나온 과일은 ")

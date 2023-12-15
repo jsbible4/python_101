@@ -30,5 +30,7 @@ said Chung at an event held at Grand Walkerhill Seoul to commemorate the 60th an
 receive trust and love from the people and serve an appropriate social role."""
 
 b = a.split()
-b.sort()
+b.sort()   #data type이 변하는 경우 변수에 넣어주는 걸 대원칙으로 한다.
 print(b) #조작하는 거라서 b.sort() 따로 분리해서 써줘야 한다.
+
+
