@@ -10,12 +10,22 @@ fruit_dict = {
     5: 'banana'
 }
 fruits = []
-for i in range(100):
+for i in range(10):
     rand = random.randint(1,5)
     fruits.append(fruit_dict[rand])
 
 print(i)
 
-a = random.randint(1,5)
-numer = fruit_dict[a]
+# a = random.randint(1,5)
+# numer = fruit_dict[a]
+#
+# for i in fruit_dict:
+#     if fruits.count(i) < fruits.count(numer):
+#
+
+# print("이 리스트에서 가장 많이 나온 과일은")
+
+# 해결은 나중에 뭐 배우면..
+
+
 

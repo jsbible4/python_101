@@ -27,9 +27,9 @@
 #    print(f"{dan} * {index} = {index*dan}")
 
 
-#num = [1, 2, 3, 4, 5]
-#for i in num:
-#    print(i)
+num = [1, 2, 3, 4, 5]
+for i in num:
+    print(i)
 
 #text = "python"
 #for i in text:
@@ -62,6 +62,12 @@ for i in list:
         max = i    # max를 계속 갱신해주는 작업.
 print(max)
 
+least = list[-1]
+for i in list:
+    if least>i:
+        least=i
+print(least)
+
 fruit_dict = {
     1 : 'stawberry',
     2:'lemon',
@@ -70,11 +76,11 @@ fruit_dict = {
     5: 'banana'
 }
 fruits = []
-for i in range(100):
+for i in range(10):
     rand = random.randint(1,5)
     fruits.append(fruit_dict[rand])
 
 print(fruits)   #이모지 = 시작버튼(윈도우즈 버튼) 누르고 .
 
-for x,y in enumerate(fruits):   #
-    print(x,y)
+for i, v in enumerate(fruits):   #
+    print(i, v)
