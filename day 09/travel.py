@@ -5,7 +5,7 @@
 # 3. 살 것 리스트 추가
 # 4. 모든 리스트 보기
 # 5. 프로그램 종료하기
-
+list = [0]
 def guide():
     print("""여행 계획 프로그램
     0. 여행 필수품
@@ -22,17 +22,14 @@ def necessity(list):   # list에 뭘 담으면 list가 출력됨.
 
 
 while True:
-    necessityList =[]
-    placelist = []
-    foodlist = []
-
-    guide()
+    necessityList =[necessity(list)]
+    # placelist = []
+    # foodlist = []
+    #
+    # guide()
     systemCode = int(input("번호를 고르세요:"))
     if systemCode == 0:
         necessity(necessityList)
+        break
 
 
-
-
-
-}
