@@ -1,0 +1,5 @@
+판다스 자료형,파이썬 자료형,설명
+object,string,문자열
+int64,int,정수
+float64,float,소수점을 가진 숫자
+datetime64,datetime,파이썬 표준 라이브러리인 datetime이 반환하는 자료형
